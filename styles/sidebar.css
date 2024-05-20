@@ -8,6 +8,7 @@
     filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.15));
 }
 
+
 .sidebar__avatar {
     width: 150px;
     border-radius: 100%;
@@ -64,4 +65,11 @@
 
 .duvida {
     background-image: url("../imagens/icon-duvida.png")
+}
+
+
+@media screen and (max-width: 920px) {
+ .sidebar{
+    display: none;
+ }   
 }

@@ -1,17 +1,18 @@
 .dadosDolar,
 .dadosRublo {
-    margin: 3em auto;
+    margin: 2em auto;
     padding: 2em;
     display: flex;
     justify-content: space-between;
     background-color: white;
+    border: 1px solid var(--roxo);
     border-radius: 24px;
-    width: 65%;
+    width: 70%;
     color: var(--cinza);
 }
 
 .grafico {
-    width: 30vw;
+    width: 90%S;
 }
 
 .grafico__titulo {
@@ -29,6 +30,7 @@
     background-image: url('../imagens/cifrao.png');
 }
 
+
 .grafico__ilustracao-rublo {
     background-image: url('../imagens/iene.png');
 }
@@ -36,14 +38,44 @@
 .grafico__titulo h2 {
     color: var(--cinza);
     font-weight: 700;
+    text-align: center;
+
     font-size: 24px;
 }
 
 .investimentos__lista {
-    margin: 2em;
+    margin: 0em 0em 0em 2em;
     color: var(--cinza);
+}
+.investimentos h2{
+    margin-left: 2em;
 }
 
 .investimentos__lista li {
     margin: 1em 0;
+}
+
+@media screen and (max-width: 920px){
+    .dadosDolar,
+    .dadosRublo{
+        width: 95%;
+        padding: 2em 1em;
+    }
+    
+    .grafico {
+        width: 100%;
+    }
+    
+    .investimentos{
+        display: none;
+    }
+    .grafico__titulo{
+        flex-direction: column;
+
+    }
+    .grafico__titulo h2{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 1em;
+    }
 }
