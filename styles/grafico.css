@@ -27,12 +27,12 @@
 }
 
 .grafico__ilustracao-dolar {
-    background-image: url('../imagens/cifrao.png');
+    background-image: url('../assets/cifrao.png');
 }
 
 
 .grafico__ilustracao-rublo {
-    background-image: url('../imagens/iene.png');
+    background-image: url('../assets/iene.png');
 }
 
 .grafico__titulo h2 {

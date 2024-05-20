@@ -52,19 +52,19 @@
 }
 
 .dashboard {
-    background-image: url("../imagens/icon-dashboard.png")
+    background-image: url("../assets/icon-dashboard.png")
 }
 
 .cofre {
-    background-image: url("../imagens/icon-cofre.png")
+    background-image: url("../assets/icon-cofre.png")
 }
 
 .configuracao {
-    background-image: url("../imagens/icon-configuracao.png")
+    background-image: url("../assets/icon-configuracao.png")
 }
 
 .duvida {
-    background-image: url("../imagens/icon-duvida.png")
+    background-image: url("../assets/icon-duvida.png")
 }
 
 
